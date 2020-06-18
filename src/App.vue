@@ -2,16 +2,19 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Formlate/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import Formlate from './components/Formlate'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    Formlate
   }
 }
 </script>
@@ -24,5 +27,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  background-color: beige;
 }
 </style>
