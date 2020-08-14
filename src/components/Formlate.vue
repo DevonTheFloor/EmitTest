@@ -19,7 +19,7 @@ import { required, minLength } from 'vuelidate/lib/validators'
 import Filate from '../components/Filate'
 
 export default {
-	name: 'Formalate',
+	name: 'Formlate',
 	components:{
 		Filate
 	},
